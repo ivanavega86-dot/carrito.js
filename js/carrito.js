@@ -16,7 +16,7 @@ let cantidadProductos = 0;
 
 //  Mostrar productos 
 function mostrarProductos() {
-  console.log("🛍️ PRODUCTOS DISPONIBLES:");
+  console.log(" PRODUCTOS DISPONIBLES:");
   console.log("1 - " + producto1 + " ($" + precio1 + ")");
   console.log("2 - " + producto2 + " ($" + precio2 + ")");
   console.log("3 - " + producto3 + " ($" + precio3 + ")");
@@ -67,7 +67,7 @@ function mostrarTotal() {
   console.log("Total: $" + total);
 }
 
-alert("Bienvenida a la tienda 🛒");
+alert("Bienvenida a la tienda");
 mostrarProductos();
 agregarAlCarrito();
 mostrarTotal();
