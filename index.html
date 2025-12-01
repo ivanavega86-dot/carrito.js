@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Simulador de Carrito</title>
 </head>
 <body>
-  <h1>Simulador de Carrito de Compras</h1>
-  <p>
+  <h1 id="h1">Simulador de Carrito de Compras</h1>
+  <p id="p">
     Este simulador permite al usuario agregar productos a su carrito,
     ver el total y confirmar la compra.
     Toda la interacción se realiza desde la Consola y los cuadros de alerta.
   </p>
 
   <main>
-    <div class="grid-item contenido1">
+    <div id="catalogo" class="grid-item contenido1">
       <h1>NEW IN</h1>
       <div class="producto">
         <img src="../assets/body.jpg" alt="" />
@@ -27,21 +28,19 @@
         <p>CROP ALGODON DISORDER</p>
         <p>$8.400</p>
       </div>
-    </div>
-
-    <section class="grid-item section">
-      <div class="producto">
+    
+      <div   class="producto">
         <img src="../assets/cropshell.jpg" alt="" />
         <p>TOP ALGODON SHELL</p>
         <p>$8.000</p>
       </div>
 
-      <div class="producto">
+      <div  class="producto">
         <img src="../assets/encaje.jpg" alt="" />
         <p>TOP ENCAJE</p>
         <p>$8.000</p>
       </div>
-    </section>
+    </div>
   </main>
 
   <script src="js/carrito.js"></script>
