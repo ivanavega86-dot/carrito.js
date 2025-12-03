@@ -3,11 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
-  <title>Simulador de Carrito</title>
+  <title>Carrito</title>
 </head>
 <body>
-  <h1 id="h1">Simulador de Carrito de Compras</h1>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">HANA</a>
+    <form class="d-flex" role="search">
+      <input id="buscador" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+      <button class="btn btn-outline-dark" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
+  <h3 id="h3">Simulador de Carrito de Compras</h3>
   <p id="p">
     Este simulador permite al usuario agregar productos a su carrito,
     ver el total y confirmar la compra.
@@ -33,13 +43,35 @@
         <img src="../assets/cropshell.jpg" alt="" />
         <p>TOP ALGODON SHELL</p>
         <p>$8.000</p>
-      </div>
+       </div>
 
-      <div  class="producto">
+       <div  class="producto">
         <img src="../assets/encaje.jpg" alt="" />
         <p>TOP ENCAJE</p>
         <p>$8.000</p>
-      </div>
+       </div>
+        <h1>NEW SEASON</h1>
+        <div class="producto">
+          <img src="../assets/escotehook.jpg" alt="" />
+          <p>TOP MICROFIBRA ESCOTE CON HOOK</p>
+          <p>$6.900</p>
+        </div>
+        <div class="producto">
+          <img src="../assets/shortpollera.jpg" alt="" />
+          <p>SHORT POLLERA</p>
+          <p>$15.000</p>
+        </div>
+        <div class="producto">
+          <img src="../assets/tiras.jpg" alt="" />
+          <p>TOP DE TIRAS</p>
+          <p>$6.900</p>
+        </div>
+        <div class="producto">
+          <img src="../assets/topmicropuntillas.jpg" alt="" />
+          <p>TOP MICROPUNTILLAS</p>
+          <p>$7.100</p>
+        </div>
+      
     </div>
   </main>
 
